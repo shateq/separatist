@@ -2,6 +2,7 @@
   "name": "separatist",
   "version": "1.0.0",
   "description": "Split text with your own separator.",
+  "homepage": "https://github.com/shateq/separatist#readme",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,6 +12,10 @@
     "separatist",
     "separator"
   ],
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/shateq/separatist.git"
+  },
   "author": "shateq",
   "license": "MIT"
 }

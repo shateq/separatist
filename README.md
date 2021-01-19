@@ -4,7 +4,7 @@ The version of the package is **1.x** and that won't change soon.
 
 # Installation
 ```shell
-npm install separated
+npm install separatist
 ```
 
 # Example
