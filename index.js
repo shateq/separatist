@@ -5,18 +5,25 @@
  * @param Separator it's the separator maintained higher, it is '\n' by default!
  * @return The actual text with the separator by the 'number of letters' joined.
 */
-
 const separatist = (string, number, separator = '\n') => {
-    const amount = parseInt(number);
-    if (!Number.isInteger(amount)) return console.error(`Separatist's second parameter has to be number!`)
-
-    let _field = "";
-    let lines = Math.floor(string.length/number);
-    for(let i = 0; i < lines + 1; i++) {
-        _field += string.substr(i*number, number);
-        if(i !== lines) _field += `${separator}`;
+    if (typeof string === "undefined" || typeof number === "undefined") {
+        throw new TypeError("First and second parameter is required!");
     }
-    return _field;
+
+    const amount = parseInt(number);
+    if (Number.isInteger(amount)) {
+        let _field = "";
+        let lines = Math.floor(string.length / number);
+
+        for(let i = 0; i < lines + 1; i++) {
+            _field += string.substr(i * number, number);
+            if(i !== lines) _field += `${separator}`;
+        }
+        return _field;
+
+    } else { 
+        throw new TypeError('The second parameter has to be an INTEGER.')
+    }
 };
 
 module.exports = separatist

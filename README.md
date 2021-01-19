@@ -6,7 +6,6 @@ The version of the package is **1.x** and that won't change soon.
 ```shell
 npm install separatist
 ```
-
 # Example
 ```js
 const separatist = require('separatist'); // Require package
