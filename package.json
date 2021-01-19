@@ -1,0 +1,16 @@
+{
+  "name": "separatist",
+  "version": "1.0.0",
+  "description": "Split text with your own separator.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "shateq",
+    "separatist",
+    "separator"
+  ],
+  "author": "shateq",
+  "license": "MIT"
+}
