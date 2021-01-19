@@ -1,6 +1,6 @@
 {
   "name": "separatist",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Split text with your own separator.",
   "homepage": "https://github.com/shateq/separatist#readme",
   "main": "index.js",
